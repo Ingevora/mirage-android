@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ingevora",
+    "module": "mirage",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mirage-0.3.0.aar",
+          "url": "mirage-0.3.0.aar",
+          "size": 1110970,
+          "sha512": "e15c6862ca95b755b6e190f15f342c524e2ffea499b9d263301fb9964a3d03eb40de8b1236bed079137cf8fafb4d7bfe862688806b3ad8f796796a294727a2d0",
+          "sha256": "07c73b6f6fe589aff7402c714fc41df0835270581b9840e666be7c4e667599a8",
+          "sha1": "460c16948329fe5b3a564e802f4f77db96d6332b",
+          "md5": "431d16cd04a209421fe9cb2cfb6fe06f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "face-detection",
+          "version": {
+            "requires": "16.1.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mirage-0.3.0.aar",
+          "url": "mirage-0.3.0.aar",
+          "size": 1110970,
+          "sha512": "e15c6862ca95b755b6e190f15f342c524e2ffea499b9d263301fb9964a3d03eb40de8b1236bed079137cf8fafb4d7bfe862688806b3ad8f796796a294727a2d0",
+          "sha256": "07c73b6f6fe589aff7402c714fc41df0835270581b9840e666be7c4e667599a8",
+          "sha1": "460c16948329fe5b3a564e802f4f77db96d6332b",
+          "md5": "431d16cd04a209421fe9cb2cfb6fe06f"
+        }
+      ]
+    }
+  ]
+}

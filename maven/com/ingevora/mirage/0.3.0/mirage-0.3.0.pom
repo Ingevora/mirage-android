@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ingevora</groupId>
+  <artifactId>mirage</artifactId>
+  <version>0.3.0</version>
+  <packaging>aar</packaging>
+  <name>IngevoraMirage for Android</name>
+  <description>On-device lens engine: face lenses drawn into camera frames, and screen effects drawn above the app's UI.</description>
+  <url>https://github.com/Ingevora/mirage-android</url>
+  <organization>
+    <name>Ingevora</name>
+    <url>https://ingevora.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>IngevoraMirage Terms</name>
+      <url>https://ingevoramirage.ingevora.com/terms</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:https://github.com/Ingevora/mirage-android.git</connection>
+    <url>https://github.com/Ingevora/mirage-android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>2.4.20</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.9.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.mlkit</groupId>
+      <artifactId>face-detection</artifactId>
+      <version>16.1.7</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

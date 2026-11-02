@@ -1,0 +1,19 @@
+# The sample's versions. `mirage` is the SDK release this folder ships with (scripts/make-release.sh checks it);
+# `agp` and `kotlin` are the SDK's own toolchain.
+[versions]
+agp = "9.4.1"
+kotlin = "2.4.20"
+mirage = "0.3.0"
+camerax = "1.4.2"
+activity = "1.13.0"
+
+[libraries]
+mirage = { module = "com.ingevora:mirage", version.ref = "mirage" }
+androidx-activity = { module = "androidx.activity:activity", version.ref = "activity" }
+androidx-camera-core = { module = "androidx.camera:camera-core", version.ref = "camerax" }
+androidx-camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "camerax" }
+androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "camerax" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

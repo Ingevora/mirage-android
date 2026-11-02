@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mirage sample</string>
+    <string name="key_title">Paste your workspace\'s API key (the editor\'s Developers page). It stays in memory and is never saved.</string>
+    <string name="key_hint">API key (mk_…)</string>
+    <string name="start">Start</string>
+    <string name="key_missing">Type the API key first.</string>
+    <string name="lens_id_hint">Face lens ID</string>
+    <string name="show_lens">Show lens</string>
+    <string name="effect_id_hint">Screen effect ID</string>
+    <string name="play_effect">Play effect</string>
+    <string name="camera_denied">Without the camera permission there is nothing to draw a lens on. Screen effects still play.</string>
+</resources>
