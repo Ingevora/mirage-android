@@ -2,3 +2,5 @@ gradlew text eol=lf
 *.bat text eol=crlf
 *.jar binary
 *.aar binary
+# The Maven repository is served byte for byte (its checksums cover the exact bytes): never convert line endings.
+maven/** binary

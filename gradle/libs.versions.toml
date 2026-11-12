@@ -3,7 +3,7 @@
 [versions]
 agp = "9.4.1"
 kotlin = "2.4.20"
-mirage = "0.3.0"
+mirage = "0.4.0"
 camerax = "1.4.2"
 activity = "1.13.0"
 

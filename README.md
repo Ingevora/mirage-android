@@ -5,7 +5,7 @@ Lenses and effects are designed in the IngevoraMirage editor and downloaded as d
 without an app release.
 
 This repository holds the SDK as a Maven repository (an AAR, served by GitHub Pages) and a sample app.
-Version **0.3.0**.
+Version **0.4.0**.
 
 ## Requirements
 
@@ -31,7 +31,7 @@ dependencyResolutionManagement {
 }
 
 // app/build.gradle.kts
-dependencies { implementation("com.ingevora:mirage:0.3.0") }
+dependencies { implementation("com.ingevora:mirage:0.4.0") }
 ```
 
 No account or token is needed. The SDK's manifest brings `android.permission.INTERNET` into your app; nothing else
